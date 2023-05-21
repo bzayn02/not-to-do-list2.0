@@ -1,0 +1,13 @@
+* {
+  box-sizing: borderbox;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  color: white;
+  min-height: 100vh;
+  background: linear-gradient(#481d85, #418eba);
+}
