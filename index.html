@@ -76,9 +76,7 @@
             </table>
             <div class="row">
               <div class="col">
-                <div>
-                  Total hours allocated = <span id="total">44</span>/168
-                </div>
+                <div>Total hours allocated = <span id="total"></span>/168</div>
               </div>
             </div>
           </div>
@@ -91,23 +89,18 @@
                   <th scope="col">Hours</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>Coding</td>
-                  <td>1 hr</td>
-                  <td>
-                    <button class="btn btn-warning">
-                      <i class="fa-solid fa-arrow-left"></i>
-                    </button>
-                    <button class="btn btn-danger">
-                      <i class="fa-solid fa-trash"></i>
-                    </button>
-                  </td>
-                </tr>
-              </tbody>
+              <tbody id="bad"></tbody>
             </table>
+
+            <p>You could have saved <span id="badHrs"></span>hrs</p>
           </div>
         </div>
+        <!-- Total Hours -->
+        <!-- <div class="row mt-5">
+          <div class="col">
+            <div>Total hours allowed = <span id="total"></span>/168</div>
+          </div>
+        </div> -->
       </div>
     </div>
 
