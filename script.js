@@ -83,7 +83,7 @@ const displayBadTask = () => {
   });
   badElem.innerHTML = str;
 
-  const badHrs = badList.reduce((acc, item) => acc + item.hr, 0);
+  const badHrs = badList.reduce((acc, item) => acc + +item.hr, 0);
 
   document.getElementById('badHrs').innerText = badHrs;
   totalHours();
